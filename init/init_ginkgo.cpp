@@ -47,6 +47,7 @@ void vendor_load_properties()
         hwversion == "18.39.0" || hwversion == "19.39.0")) {
         device = "willow";
         model = "Redmi Note 8T";
+        property_override("ro.ssos.device", device);
     } else {
         device = "ginkgo";
         model = "Redmi Note 8";
