@@ -24,7 +24,7 @@ import androidx.preference.Preference;
 import org.lineageos.settings.device.FileUtils;
 import org.lineageos.settings.device.R;
 import org.lineageos.settings.device.preferences.SecureSettingCustomSeekBarPreference;
-import org.lineageos.settings.device.preferences.SecureSettingSwitchPreference;
+import com.ssos.support.preferences.SecureSettingSwitchPreference;
 
 public class KCalSettings extends PreferenceFragment implements
         Preference.OnPreferenceChangeListener, Utils {

@@ -26,7 +26,7 @@ import androidx.preference.PreferenceCategory;
 import org.lineageos.settings.device.kcal.KCalSettingsActivity;
 import org.lineageos.settings.device.preferences.CustomSeekBarPreference;
 import org.lineageos.settings.device.preferences.SecureSettingListPreference;
-import org.lineageos.settings.device.preferences.SecureSettingSwitchPreference;
+import com.ssos.support.preferences.SecureSettingSwitchPreference;
 import org.lineageos.settings.device.preferences.VibrationSeekBarPreference;
 import org.lineageos.settings.device.speaker.ClearSpeakerActivity;
 
