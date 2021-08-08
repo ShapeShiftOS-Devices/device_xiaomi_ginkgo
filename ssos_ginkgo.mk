@@ -27,7 +27,6 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 $(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 SSOS_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_OP_FILE_MANAGER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier
