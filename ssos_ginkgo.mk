@@ -28,6 +28,8 @@ $(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 SSOS_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.ssos.cpu=SM6125
 
 # Device identifier
 PRODUCT_NAME := ssos_ginkgo
